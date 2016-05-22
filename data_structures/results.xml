@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Plot title="Avg List Element Access Time">
+  <Axes>
+    <XAxis min="1000" max="10000">List Size</XAxis>
+    <YAxis min="5.031" max="60">Micro Seconds</YAxis>
+  </Axes>
+  <Sequence title="Avg Access Time vs List Size" color="red">
+      <DataPoint x="1000" y="7.64"/>
+      <DataPoint x="2000" y="5.031"/>
+      <DataPoint x="3000" y="8.622"/>
+      <DataPoint x="4000" y="6.534"/>
+      <DataPoint x="5000" y="7.243"/>
+      <DataPoint x="6000" y="7.443"/>
+      <DataPoint x="7000" y="5.781"/>
+      <DataPoint x="8000" y="9.984"/>
+      <DataPoint x="9000" y="5.674"/>
+      <DataPoint x="10000" y="8.006"/>
+  </Sequence>
